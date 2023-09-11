@@ -14,6 +14,7 @@
 body {
     font-family: chery bomb;
     background: var(--white);
+    color: var(--white);
 }
 
 header {
@@ -30,7 +31,7 @@ header .header-menu {
     display: flex;
     place-items: center;
     justify-content: space-between;
-    padding: 15px 60px;
+    padding: 2px 60px;
 }
 
 header .header-menu h1>li {
@@ -54,7 +55,134 @@ header .header-menu ul {
 header .header-menu ul li {
     list-style-type: none;
     font-size: 19px;
+    cursor: pointer;
+
     margin-left: 27px;
 }
 
-.top-main {}
+.top-main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 160px auto 0;
+    text-align: center;
+    display: flex;
+    margin-bottom: 40px;
+
+}
+
+.left-items {
+    background-color: var(--hotpink);
+    width: 20%;
+    padding: 15px 22px;
+    border-radius: 30px 10px 10px 30px;
+}
+
+.top-main .left-items,
+h3 {
+    margin-top: 2px;
+}
+
+.top-main .right-items,
+h3 {
+    margin-top: 2px;
+}
+
+.top-main .left-items li {
+    font-size: 26px;
+    cursor: pointer;
+
+}
+
+.top-main .right-items li {
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.top-main .left-items .uncatgorized,
+.addFav,
+.share {
+    margin-bottom: 13px
+}
+
+.right-items {
+    background-color: var(--hotpink);
+    width: 20%;
+    padding: 15px 22px;
+    border-radius: 10px 30px 30px 10px;
+}
+
+.input-search {
+    width: 54%;
+    margin: 0 18px;
+    border: 2px solid var(--pink);
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px #f9d9da;
+    position: relative;
+}
+
+.input-box {
+    margin-left: 10px;
+}
+
+.input-search .input-box {
+    padding-right: 280px;
+}
+
+.title-text {
+    background: #f9d9da;
+    margin-top: 13px;
+    border: none;
+    color: var(--white);
+    outline: none;
+    padding: 10px 1px;
+    text-align: center;
+    font-family: chery bomb;
+    border-radius: 3px;
+}
+
+.title-text::placeholder {
+    color: var(--white);
+    font-family: chery bomb;
+}
+
+.note {
+    outline: none;
+    border: none;
+    background: none;
+    color: var(--pink);
+    font-family: chery bomb;
+}
+
+.note::placeholder {
+    color: rgba(255, 183, 193, 0.776);
+    font-family: chery bomb;
+}
+
+.input-search .calender h4 {
+    color: rgba(255, 183, 193, 0.776);
+    margin-bottom: -26px;
+}
+
+.input-search .calender {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: 15px;
+}
+
+.saveBtn {
+    width: 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.saveBtn button {
+    font-size: 28px;
+    border: none;
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+    background: var(--hotpink);
+    color: var(--white);
+    cursor: pointer;
+    font-family: chery bomb;
+}
