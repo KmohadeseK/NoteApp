@@ -66,7 +66,7 @@ header .header-menu ul li {
     margin: 160px auto 0;
     text-align: center;
     display: flex;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 
 }
 
@@ -125,23 +125,28 @@ h3 {
 }
 
 .input-search .input-box {
-    padding-right: 280px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
 }
 
 .title-text {
-    background: #f9d9da;
+    background: #f9bdbfe1;
     margin-top: 13px;
     border: none;
     color: var(--white);
     outline: none;
-    padding: 10px 1px;
+    padding: 10px;
     text-align: center;
     font-family: chery bomb;
     border-radius: 3px;
+    margin-bottom: 5px;
 }
 
 .title-text::placeholder {
     color: var(--white);
+    font-size: 19px;
     font-family: chery bomb;
 }
 
@@ -155,6 +160,7 @@ h3 {
 
 .note::placeholder {
     color: rgba(255, 183, 193, 0.776);
+    font-size: 18px;
     font-family: chery bomb;
 }
 
@@ -177,7 +183,7 @@ h3 {
 }
 
 .saveBtn button {
-    font-size: 28px;
+    font-size: 24px;
     border: none;
     padding: 8px 20px 8px 20px;
     border-radius: 5px;
