@@ -1,0 +1,60 @@
+:root {
+    --pink: #FFAFB0;
+    --white: #faffe1;
+    --hotpink: #ff9899;
+
+
+}
+
+@font-face {
+    font-family: chery bomb;
+    src: url(Cherry_Bomb_One/CherryBombOne-Regular.ttf);
+}
+
+body {
+    font-family: chery bomb;
+    background: var(--white);
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: var(--pink);
+    box-shadow: 1px 1.5px 11px #cccccc;
+}
+
+header .header-menu {
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+}
+
+header .header-menu h1>li {
+    font-size: 43px;
+    margin-right: 7px;
+}
+
+header .header-menu h1 {
+    font-size: 39px;
+}
+
+header .header-menu h1,
+ul li {
+    color: var(--white);
+}
+
+header .header-menu ul {
+    display: flex;
+}
+
+header .header-menu ul li {
+    list-style-type: none;
+    font-size: 19px;
+    margin-left: 27px;
+}
+
+.top-main {}
